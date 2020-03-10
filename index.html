@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Decision Maker</title>
+    <link href="https://fonts.googleapis.com/css?family=Kanit:400,700|Saira+Semi+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="title">
+            <h1>Randomize</h1>
+        </header>
+        <main class="quizArea">
+            <header class="result"></header>
+            <p>Have a tough decision? Enter your two choices below, pick a few items from the following pages, and we will help you decide!</p>
+            <form class="choiceInputs">
+                <!-- First choice -->
+                <div class="decisionInputs wrapper">
+                    <div class="inputArea">
+                        <label for="firstChoice">Enter first choice:</label>
+                        <input type="text" id="firstChoice" required>
+                    </div>
+                    <!-- Second choice -->
+                    <div class="inputArea">
+                        <label for="secondChoice">Enter second choice:</label>
+                        <input type="text" id="secondChoice" required>
+                    </div>
+                </div>
+                <input type="submit">
+            </form>
+            <form class="decisions decision1">
+                <h2>an animal</h2>
+                <div class="randomizedOptions wrapper">
+                    <div class="radioSelectors">
+                        <label for="option1"></label>
+                        <input type="radio" value="" id="option1" name="select" required>
+                    </div>
+                    <div class="radioSelectors">
+                        <label for="option2"></label>
+                        <input type="radio" value="" id="option2" name="select">
+                    </div>
+                </div>
+                <input type="submit">
+            </form>
+            <form class="decisions decision2">
+                <h2>a season</h2>
+                <div class="randomizedOptions wrapper">
+                    <div class="radioSelectors">
+                        <label for="option3"></label>
+                        <input type="radio" value="" id="option3" name="select" required>
+                    </div>
+                    <div class="radioSelectors">
+                        <label for="option4"></label>
+                        <input type="radio" value="" id="option4" name="select">
+                    </div>
+                </div>
+                <input type="submit">
+            </form>
+            <form class="decisions decision3">
+                <h2>a time of day</h2>
+                <div class="randomizedOptions wrapper">
+                    <div class="radioSelectors">
+                        <label for="option5"></label>
+                        <input type="radio" value="" id="option5" name="select" required>
+                    </div>
+                    <div class="radioSelectors">
+                        <label for="option6"></label>
+                        <input type="radio" value="" id="option6" name="select">
+                    </div>
+                </div>
+                <input type="submit">
+            </form>
+            <form class="decisions decision4">
+                <h2>a zombie-slayer</h2>
+                <div class="randomizedOptions wrapper">
+                    <div class="radioSelectors">
+                        <label for="option7"></label>
+                        <input type="radio" value="" id="option7" name="select" required>
+                    </div>
+                    <div class="radioSelectors">
+                        <label for="option8"></label>
+                        <input type="radio" value="" id="option8" name="select">
+                    </div>
+                </div>
+                <input type="submit">
+            </form>
+            <form class="decisions decision5">
+                <h2>a travel method</h2>
+                <div class="randomizedOptions wrapper">
+                    <div class="radioSelectors">
+                        <label for="option9"></label>
+                        <input type="radio" value="" id="option9" name="select" required>
+                    </div>
+                    <div class="radioSelectors">
+                        <label for="option10"></label>
+                        <input type="radio" value="" id="option10" name="select">
+                    </div>
+                </div>
+                <input type="submit" class="last">
+            </form>
+            <section class="outcome">
+                <ol>
+                    <h4></h4>
+                </ol>
+                <a href="index.html" class="reset">Again?</a>
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+            </section>
+        </main>
+    </div>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
